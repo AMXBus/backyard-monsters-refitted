@@ -1783,7 +1783,7 @@ package
                   {
                      counter++;
                   }
-                  buildingFoundation = addBuildingC(building.t);
+                  buildingFoundation = addBuildingC(building.t); // Messes up here  
                   if(buildingFoundation)
                   {
                      foundationType = buildingFoundation._type;
